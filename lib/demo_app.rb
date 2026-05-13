@@ -41,6 +41,16 @@ module DemoApp
         created_at: @created_at
       }
     end
+
+    # Check if user object is present (Rails-style)
+    def present?
+      true
+    end
+
+    # Check if user is admin
+    def admin?
+      false
+    end
   end
 
   # Authorization helper using Pundit pattern
