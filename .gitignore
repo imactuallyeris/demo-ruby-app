@@ -1,0 +1,29 @@
+# Ruby
+*.gem
+*.rbc
+Gemfile.lock
+.bundle/
+vendor/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Test coverage
+/coverage/
+/.rspec_status
+
+# Logs
+*.log
+
+# Temp files
+/tmp/
+
